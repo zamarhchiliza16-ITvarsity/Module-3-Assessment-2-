@@ -1,0 +1,222 @@
+html{
+	height: 100%;
+}
+
+body{
+	font-family: sans-serif;
+	height: 100%;
+}
+
+#home-text-img{
+	float: right;
+}
+
+.body-home{
+	background-image: url('images/backGROUND.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-breakfast{
+	background-image: url('images/breakfast.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-breakfast1{
+	background-image: url('images/light-meals.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-breakfast2{
+	background-image: url('images/burger.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-breakfast3{
+	background-image: url('images/grill.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-breakfast4{
+	background-image: url('images/kiddies.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-breakfast5{
+	background-image: url('images/desserts.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.body-breakfast6{
+	background-image: url('images/shakes.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*==================== HEADER ======================*/
+
+.header{
+	position: fixed;
+    top: 0;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: #541515;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.header i{
+	float: left;
+	padding: 17px 0px 0px 17px;
+	color: black;
+}
+/*=============== HOME PAGE =================*/
+
+/*=============== HOME MENU ITEM =================*/
+
+.home-menu-item{
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	color: black;
+	font-size:  20px;
+	text-align: center;
+	border: 5px solid #624007 ;
+	
+	
+	display: block;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 60%;
+}
+
+/*=============== BREAKFAST PAGE =================*/
+
+#breakfast{
+	padding-top: 50px;
+}
+
+/*=============== BREAKFAST MENU ITEM =================*/
+
+.breakfast-list a{
+	text-decoration: none;
+	color: black;
+	}
+
+.breakfast-list-item{
+	border: 5px solid black;
+	margin: 10px;
+	background: rgba(255, 255, 255, .8);
+}
+
+.breakfast-list-item h1{
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 10px;
+}
+
+.breakfast-list-item i{
+	float: right;
+	color: black;
+	padding-bottom: 10px;
+	padding-right: 5px;
+}
+
+/*=============== RECIPE PAGE =================*/
+
+#recipe{
+	padding: 50px;
+}
+
+/*=============== RECIPE DETAILS =================*/
+
+.recipe-details img{
+   width: 100%;
+  	
+}
+
+.recipe-details h1{
+	font-size: 20px;
+	text-align: center;
+	border: 5px solid black;
+	margin: 10px;
+	padding: 5px;
+	
+}
+
+.recipe-details-servings h2{
+	padding-top: 5px;
+	font-size: 15px;
+	text-align: left;
+	margin-left: 5px;
+}
+
+.recicipe-details-info{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.recipe-details-info p{
+	
+	display: inline-block;
+	
+}
+
+.recipe-details-servings label{
+	margin-left: 10px;
+}
+
+/*=============== RESPONSIVE LAYOUT =================*/
+
+@media only screen and (min-width: 600px){
+	#breakfast{
+		width: 80%;
+		margin: auto;
+	}
+	
+	#recipe{
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	#breakfast{
+		width: 60%;
+		margin: auto;
+	}
+	
+	#recipe{
+		width: 60%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 1500px){
+	#breakfast{
+		width: 40%;
+		margin: auto;
+	}
+	
+	#recipe{
+		width: 40%;
+		margin: auto;
+	}
+}
